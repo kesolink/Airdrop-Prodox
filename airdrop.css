@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin:0 150px;
+}
+.container-y{
+    margin:0 50px;
+}
+.container-X{
+    margin: 0 350px;
+    margin-top: 40px;
+}
+.container-y{
+    margin: 0 200px;
+}
+
+
+.bnt-div button{
+    width: 80px;
+    border-radius: 5px;
+}
+.bnt-div button a{
+    text-decoration: none; 
+}
+
+.section-wrapper{
+    /* background-color: aqua; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background:hsl(217.24,56.86%,10%);
+    
+}
+
+.header-sec-left{
+    padding-top: 60px;
+    display: block;
+    flex-direction: emd;
+}
+.header-sec-left h1{
+    padding-top: 60px;
+    font-size: 90px;
+    color: #fff;
+}
+.header-sec-left h3 {
+    font-size: 40px;
+    color: #fff;
+}
+.header-sec-left h4 {
+    font-size: 40px;
+    color: #fff;
+}
+.header-sec-left button{
+    width: 90px;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+.header-sec-left button a{
+    text-decoration: none; 
+}
+
+.header-sec-right img{
+    background-repeat: no-repeat ;
+    /* margin-left: 100px; */
+}
+
+
+/* *************tast section************* */
+.task-section{
+    background-color: #0A1527;
+}
+.header-task h4{
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    color: #fff;
+}
+.card-1{
+    
+    border-radius: 10px;
+    box-sizing: border-box;
+    background:#122135;
+    color: #fff;
+    
+    
+}
+.header-card-1 img{
+    width: 70px;
+    float: center;
+    padding-top: 20px;
+}
+.header-card-1{
+    text-align: center;
+    margin: 20px 0;
+}
+.header-card-1 h4{
+    font-size: 20px;
+    color: #fff;
+}
+.card-1-down{
+    padding: 10px;
+    
+}
+.caution-wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.caution-wrapper h4{
+    font-size: 15px;
+    color: #fff;
+}
+.caution-wrapper img{
+    width: 35px;
+    margin-right: 10px;
+    
+}
+
+/* <!-- ************task-input********************* --> */
+.task-header h4{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    padding: 45px 0 ;
+    
+}
+
+
+.task-right input{
+    width: 400px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.task-right h5{
+    color: #fff;
+    font-size: 18px;
+    margin: 0%;
+}
+.task-btn button{
+    padding: 5px;
+    width: 120px;
+    border-radius: 8px;
+    margin-left: 20%;
+
+
+}
+/* .task-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.file-input {
+    border-radius: 8px;
+    width: 80%;
+}
+
+/* @media querry */
+@media screen and (max-width: 480px){
+    .header-sec-left h1{
+        font-size: 65px;
+    }
+    .header-sec-left h3{
+        font-size: 30px;
+    }
+    .header-sec-left h4{
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .container{
+        margin:0px;
+    }
+    .container-x{
+        margin:0 70px;
+    }
+    .container-X{
+        margin:0px;
+    }
+
+    .container-y{
+        margin:0px;
+    }
+    .header-sec-right img{
+        width: 100%;
+    }
+    .task-right input{
+        width: 350px;
+        border-radius: 5px;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    .task-right h5{
+        font-size: 16px;
+    }
+    .task-left img{
+        width: 70% !important;
+    }
+}
+
+
+
+

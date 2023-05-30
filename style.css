@@ -17,14 +17,6 @@
 }
 
 
-.bnt-div button{
-    width: 80px;
-    border-radius: 5px;
-}
-.bnt-div button a{
-    text-decoration: none; 
-}
-
 .section-wrapper{
     /* background-color: aqua; */
     background-size: cover;
@@ -200,8 +192,165 @@
     .task-left img{
         width: 80% !important;
     }
+    /* circle property */
+    .circle-img {
+        
+        padding-left: 10px;
+    }
+    .circle-img img{
+        width: 300px !important;
+        height: 300px !important;
+        
+    }
+    .circle-wrapper{
+        width: 150px !important;
+        height: 150px !important;
+        border-radius: 50%;
+        background-color: yellow;
+        position: absolute;
+        left: 110px !important;
+        top: -100px !important;
+        overflow: hidden;
+        
+      
+      }
+      .squar-wrapper{
+        width: 150px !important;
+        height: 150px !important;
+        border-radius: 8px;
+        background-color: yellow;
+        position: absolute;
+        left: 280px !important;
+        top: -120px !important;
+        overflow: hidden;
+      }
+      .triangle-wrapper{
+        width: 150px !important;
+        height: 150px !important;
+        border-radius: 0 100% 0 0;
+        background-color: yellow;
+        position: absolute;
+        left: 210px !important;
+        top: -260px !important;
+        overflow: hidden;
+      }
+      .circle-wrapper img{
+        /* width: 250px; */
+        width: fit-content !important;
+      }
+     
+      .squar-wrapper img{
+        width: fit-content !important;
+      }
+      .triangle-wrapper img{
+        width: fit-content !important;
+        
+      }
 }
 
+/* ********************************************* */
+.task-section{
+    padding-bottom: 90px;
+}
+.task-right{
+    padding: 70px 0px 50px 0px;
+}
+.overview-image{
+    position: relative;
+  }
+.image2{
+    position: absolute;
+    top: 250px;
+    left: -90px;
+}
+  .circle-wrapper{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+    left: 140px;
+    top: 20px;
+    overflow: hidden;
+    
+  
+  }
+  .squar-wrapper{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    background-color: yellow;
+    position: absolute;
+    left: 400px;
+    top: -40px;
+    overflow: hidden;
+  }
+  .triangle-wrapper{
+    width: 230px;
+    height: 230px;
+    border-radius: 0 100% 0 0;
+    background-color: yellow;
+    position: absolute;
+    left: 250px;
+    top: -230px;
+    overflow: hidden;
+  }
+  .circle-wrapper img{
+    width: 100%;
+  }
+ 
+  .squar-wrapper img{
+    width: 100%;
+  }
+  .triangle-wrapper img{
+    width: 100%;
+    margin-right: 60px;
+  }
+  .circle-img img{
+    width: 500px;
+    height: 500px;
+    animation-name: rotate;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 50%;
+    z-index: -1;
+    
+    
+}
+@keyframes rotate{
+    from{ transform: rotate(-360deg); }
+    to{ transform: rotate(360deg); }
+}
+  
 
 
 
+
+
+
+/* .header-sec-right{
+    position: relative;
+}
+
+.head-img{
+    position: absolute;
+    left: 0;
+     top: -8%;
+} */
+ /* .circle-img img{
+    width: 500px;
+    height: 500px;
+    animation-name: rotate;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 50%;
+    z-index: -1;
+    
+    
+} */
+/* @keyframes rotate{
+    from{ transform: rotate(-360deg); }
+    to{ transform: rotate(360deg); }
+} */
